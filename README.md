@@ -37,14 +37,14 @@ Anonymous credentials have been moved to the [SSCred library](https://github.com
 
 Two benchmarks are provided
 
-- `benchmark-mspsi.py`: Benchmark for 1 corpus of documents aimed to measure the time to make and reply to a query
-- `benchmark-mspsi-many-journalist.py`: Benchmark for many corpus of documents aimed to do the same measurements with many journalists
+- `benchmark-mspsi.py`: Benchmark for interacting with one journalist. This benchmark aims to measure the time to make and reply to a query.
+- `benchmark-mspsi-many-journalist.py`: Benchmark for searching the corpora of many journalists. 
 
 These benchmarks run the protocol and record the timing in the `benchmark-mspsi-{time-stamp}.json` file.
 
-A jupyter nootebook (`notebooks\benchmark_plotting_mspsi.ipynb`) is provided to visualize the produced data.
+A jupyter notebook (`notebooks\benchmark_plotting_mspsi.ipynb`) is provided to visualize the produced data.
 
 To use the notebook:
     jupyter lab notebooks\benchmark_plotting_mspsi.ipynb
 
-Then open the nootebook with Jupyter's interface. Run all cells to generate the performance plots of mspsi.
+Then open the notebook with Jupyter's interface. Run all cells to generate the performance plots of mspsi.
