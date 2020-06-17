@@ -1,0 +1,4 @@
+jupyterlab
+matplotlib==3.2.1
+numpy==1.18.5
+-e git+https://github.com/bogdan-kulynych/petlib@4015b9d45c7c1031ec2264647315a08ef0bf3f79#egg=petlib
