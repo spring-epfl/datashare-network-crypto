@@ -42,7 +42,7 @@ Two benchmarks are provided
 
 These benchmarks run the protocol and record the timing in the `benchmark-mspsi-{time-stamp}.json` file.
 
-A jupyter notebook (`notebooks\benchmark_plotting_mspsi.ipynb`) is provided to visualize the produced data.
+A jupyter notebook (`notebooks\benchmark_plotting_mspsi.ipynb`) is provided to visualize the single journalist data.
 
 To use the notebook:
     jupyter lab notebooks\benchmark_plotting_mspsi.ipynb
