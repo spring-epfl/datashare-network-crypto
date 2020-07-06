@@ -10,6 +10,8 @@ This repository contains a proof of concept implementation of cryptographic
 primitives of DatashareNetwork and aims to enable reproducibility
 of measurements in the paper.
 
+You can find the extended edition of the DatashareNetwork paper at [https://arxiv.org/abs/2005.14645].
+
 
 ## Installation
 
