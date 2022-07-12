@@ -9,5 +9,3 @@ __copyright__ = "Copyright 2020, SPRING Lab, EPFL"
 __license__ = "BSD 3-Clause"
 __version__ = "0.9"
 
-from . import cpsi
-from . import mspsi

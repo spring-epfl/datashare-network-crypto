@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+petlib = {editable = true, ref = "b23c0d29f5f47a20e948b25acc90fe0f7e5bbed4", git = "https://github.com/spring-epfl/petlib.git"}
+msgpack = "*"
+
+[dev-packages]
+pytest = "*"
+jupyterlab = "*"
+matplotlib = "==3.2.1"
+numpy = "==1.18.5"
+setuptools-pipfile = "*"
+
+[requires]
+python_version = "3"

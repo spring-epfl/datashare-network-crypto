@@ -1,11 +1,9 @@
 import random
 import string
-import sys
 import unittest
 
 from petlib.bn import Bn
 
-#sys.path.append('../')
 from mspsi.mspsi import MSPSIClient, MSPSIServer
 
 

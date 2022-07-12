@@ -1,10 +1,7 @@
 import random
 import string
 import cProfile
-import pstats
 
-import sys
-sys.path.append('.')
 from mspsi.mspsi import MSPSIClient, MSPSIServer
 
 random.seed(0)

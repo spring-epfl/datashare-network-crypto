@@ -1,7 +1,5 @@
-#import sys
 import unittest
 
-#sys.path.append('../')
 from mspsi.cpsi import CPSIClient, CPSIServer
 from petlib.bn import Bn
 
