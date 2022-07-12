@@ -11,7 +11,7 @@ msgpack = "*"
 pytest = "*"
 jupyterlab = "*"
 matplotlib = "==3.2.1"
-numpy = "==1.18.5"
+numpy = "==1.22.0"
 setuptools-pipfile = "*"
 
 [requires]
