@@ -5,8 +5,13 @@ Cuckoo Filter
 import random
 
 from . import bucket
-from . import exceptions
 from . import hashutils
+
+
+class CuckooFilterFullException(Exception):
+    """
+    Exception raised when filter is full.
+    """
 
 
 class CuckooFilter(object):
@@ -79,7 +84,7 @@ class CuckooFilter(object):
                 self.size += 1
                 return True
         # Filter is full
-        raise exceptions.CuckooFilterFullException('Insert operation failed. '
+        raise CuckooFilterFullException('Insert operation failed. '
                                                    'Filter is full.')
 
     def contains(self, item):
